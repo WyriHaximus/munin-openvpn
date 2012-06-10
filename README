@@ -14,10 +14,10 @@ Installation
 
 Install the plugin with:
 
-  command wget 'https://raw.github.com/biapy/munin-openvpn/master/openvpn_usercount' \
+  command wget 'https://raw.github.com/jforman/munin-openvpn/master/openvpn_usercount' \
       --no-check-certificate --output-document='/usr/share/munin/plugins/openvpn_usercount'
   command chmod +x '/usr/share/munin/plugins/openvpn_usercount'
-  command wget 'https://raw.github.com/biapy/munin-openvpn/master/openvpn_usertransfer' \
+  command wget 'https://raw.github.com/jforman/munin-openvpn/master/openvpn_usertransfer' \
       --no-check-certificate --output-document='/usr/share/munin/plugins/openvpn_usertransfer'
   command chmod +x '/usr/share/munin/plugins/openvpn_usertransfer'
 
@@ -59,4 +59,3 @@ Its current version has been written by Pierre-Yves Landure for Biapy:
   * http://www.biapy.fr/
   * http://howto.biapy.com/
   * https://github.com/biapy
-
